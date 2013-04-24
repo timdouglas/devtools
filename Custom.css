@@ -1,0 +1,13 @@
+/* Force the console tab to be the last in line */
+#-webkit-web-inspector #toolbar {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  }
+  
+  #-webkit-web-inspector #toolbar .toolbar-item.console {
+    -webkit-order: 1;
+    order: 1;
+  }
+ 
